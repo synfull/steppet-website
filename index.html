@@ -72,24 +72,10 @@
 <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  particlesJS('particles-js', {
-    particles: {
-      number: { value: 50 },
-      color: { value: "#ffffff" },
-      shape: { type: "circle" },
-      opacity: { value: 0.5 },
-      size: { value: 2 },
-      line_linked: { enable: false },
-      move: { enable: true, speed: 0.6 }
-    },
-    interactivity: {
-      events: {
-        onhover: { enable: true, mode: "repulse" }
-      }
-    }
-  });
+  particlesJS.load('particles-js', 'particles-config.json');
 });
 </script>
+
 
 
 </body>
