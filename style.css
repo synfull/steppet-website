@@ -78,8 +78,11 @@ p {
 }
 
 .pet-gallery img:hover {
-  transform: scale(1.05);
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(106, 13, 173, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 
 .evolution {
   text-align: center;
