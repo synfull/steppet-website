@@ -69,30 +69,28 @@
     <p>© 2025 StepPet. All rights reserved.</p>
   </footer>
 
-  <!-- Particles JS library -->
 <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
-
-<!-- Particles settings -->
 <script>
-window.onload = function() {
-  particlesJS("particles-js", {
-    "particles": {
-      "number": { "value": 50 },
-      "color": { "value": "#ffffff" },
-      "shape": { "type": "circle" },
-      "opacity": { "value": 0.5 },
-      "size": { "value": 2 },
-      "line_linked": { "enable": false },
-      "move": { "enable": true, "speed": 0.6 }
+document.addEventListener('DOMContentLoaded', function() {
+  particlesJS('particles-js', {
+    particles: {
+      number: { value: 50 },
+      color: { value: "#ffffff" },
+      shape: { type: "circle" },
+      opacity: { value: 0.5 },
+      size: { value: 2 },
+      line_linked: { enable: false },
+      move: { enable: true, speed: 0.6 }
     },
-    "interactivity": {
-      "events": {
-        "onhover": { "enable": true, "mode": "repulse" }
+    interactivity: {
+      events: {
+        onhover: { enable: true, mode: "repulse" }
       }
     }
   });
-};
+});
 </script>
+
 
 </body>
 </html>
