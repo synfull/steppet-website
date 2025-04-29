@@ -10,10 +10,11 @@ body {
 header.hero {
   text-align: center;
   padding: 4rem 2rem 2rem;
-  background: linear-gradient(135deg, #b084f5 0%, #d5b4f5 100%);
+  background: linear-gradient(135deg, rgba(176, 132, 245, 0.8) 0%, rgba(213, 180, 245, 0.8) 100%);
   color: white;
   animation: fadeUp 1.2s ease-out;
 }
+
 
 header.hero .logo {
   width: 140px;
