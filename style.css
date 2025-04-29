@@ -90,6 +90,11 @@ p {
   background: #fff;
 }
 
+header.hero h1 {
+  animation: heroFadeUp 1.2s ease-out both;
+}
+
+
 .evolution-steps {
   display: flex;
   justify-content: center;
@@ -115,6 +120,18 @@ footer {
     transform: translateY(0);
   }
 }
+
+@keyframes heroFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 
 #particles-js {
   position: fixed;
