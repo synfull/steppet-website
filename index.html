@@ -9,6 +9,7 @@
   <meta name="description" content="Step your way to magical pets! Walk, hatch creatures, evolve them, and compete with friends. Welcome to StepPet!">
 </head>
 <body>
+  <div id="particles-js"></div>
   <header class="hero">
     <img src="images/logo.png" alt="StepPet Logo" class="logo">
     <h1>Hatch Your Adventure!</h1>
@@ -50,7 +51,7 @@
   </section>
 
   <section class="pets">
-    <h2>Collect Them All!</h2>
+    <h2 style="text-align: center;">Collect Them All!</h2>
     <div class="pet-gallery">
       <img src="images/aquabub_baby.png" alt="Aquabub Baby">
       <img src="images/mossling_baby.png" alt="Mossling Baby">
@@ -62,5 +63,25 @@
   <footer>
     <p>© 2025 StepPet. All rights reserved.</p>
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": { "value": 50 },
+        "color": { "value": "#ffffff" },
+        "shape": { "type": "circle" },
+        "opacity": { "value": 0.5 },
+        "size": { "value": 2 },
+        "line_linked": { "enable": false },
+        "move": { "enable": true, "speed": 1 }
+      },
+      "interactivity": {
+        "events": {
+          "onhover": { "enable": true, "mode": "repulse" }
+        }
+      }
+    });
+  </script>
 </body>
 </html>
